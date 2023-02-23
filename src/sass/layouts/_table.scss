@@ -1,0 +1,150 @@
+.wrapper-table {
+  margin-top: 21px;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e9edf5;
+}
+
+.head-section {
+  background: rgba(247, 249, 252, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+.head {
+  padding: 8px 10px;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #687182;
+
+  &__first {
+    color: #171c26;
+  }
+}
+
+.head:nth-child(1) {
+  width: 46px;
+}
+
+.head:nth-child(2) {
+  width: 242px;
+}
+
+.head:nth-child(3) {
+  width: 150px;
+}
+
+.head:nth-child(4) {
+  width: 150px;
+}
+
+.head:nth-child(5) {
+  width: 200px;
+}
+
+.head:nth-child(6) {
+  width: 150px;
+}
+
+.head:nth-child(7) {
+  width: 100px;
+}
+
+.row {
+  display: initial;
+}
+
+.perk-wr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 8px;
+
+  width: fit-content;
+  max-width: 111px;
+  height: 20px;
+
+  background: #e1fcef;
+  border-radius: 4px;
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+
+  background: #38a06c;
+  border-radius: 2px;
+}
+
+.perk {
+  margin-left: 6px;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+
+  color: #14804a;
+}
+
+.footer {
+  display: flex;
+  align-items: baseline;
+  padding: 17px 20px;
+  margin-left: -20px;
+}
+
+.info {
+  margin-right: auto;
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.length {
+  margin-right: 12px;
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+#memListTable_previous,
+#memListTable_next {
+  width: 72px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #374151;
+
+  background: #fff;
+
+  border: 1px solid #d1d5db;
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: #374151 !important;
+}

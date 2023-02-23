@@ -1,0 +1,157 @@
+<section class="search-section search">
+  <div class="search-wrapper">
+    <ul class="search-category-list">
+      <li class="list-item current">
+        <a href="#" class="list-text">Hotels</a>
+        <span class="list-number">170,802</span>
+      </li>
+      <li class="list-item">
+        <a href="#" class="list-text">Cruises</a>
+        <span class="list-number">57</span>
+      </li>
+      <li class="list-item">
+        <a href="#" class="list-text">Tours</a>
+        <span class="list-number">9</span>
+      </li>
+      <li class="list-item">
+        <a href="#" class="list-text">Cars</a>
+        <span class="list-number">13</span>
+      </li>
+    </ul>
+    <button
+      type="button"
+      class="new-btn"
+      data-modal-open
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop"
+    >
+      <img class="new-btn__plus" src="./images/plus-symbol.svg" alt="plus" />
+      <span class="new-btn__text">New Supply</span>
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+      data-modal
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Lorem Ipsum</h1>
+            <img
+              class="modal-close btn-close"
+              src="./images/close.svg"
+              alt="close-btn"
+              data-bs-dismiss="modal"
+              data-modal-close
+              aria-label="Close"
+            />
+          </div>
+          <div class="modal-body">
+            <h3 class="modal-text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </h3>
+            <form class="modal-form">
+              <div class="row form-group">
+                <label for="date" class="col-sm-1 col-form-label">Date:</label>
+                <div class="date-input-wrapper">
+                  <div class="input-group date" id="datepicker">
+                    <span class="input-group-append">
+                      <span class="input-group-text bg-white d-block">
+                        <i class="fa fa-calendar"></i>
+                      </span>
+                    </span>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="select-input">
+                <label class="select-title" for="guests">Assigned to:</label>
+                <select
+                  class="select-btn select"
+                  name="guests"
+                  id="guests-pick"
+                  data-mdb-placeholder="Please enter 2 or more characters"
+                  multiple
+                >
+                  <option class="option" value="Colin Nelson">Colin Nelson</option>
+                  <option class="option" value="Gresham Carr">Gresham Carr</option>
+                  <option class="option" value="Virgil Grant">Virgil Grant</option>
+                  <option class="option" value="Gilbert Hopkins">Gilbert Hopkins</option>
+                  <option class="option" value="Sarah Lamb">Sarah Lamb</option>
+                  <option class="option" value="Dennis Dinwiddie">Dennis Dinwiddie</option>
+                  <option class="option" value="Mia Pope">Mia Pope</option>
+                  <option class="option" value="Jessica Bird">Jessica Bird</option>
+                </select>
+              </div>
+              <div class="select-input">
+                <label class="select-title" for="guests">Followed by:</label>
+                <select class="select-btn" name="guests" id="guests-follow" multiple>
+                  <option class="option" value="Colin Nelson">Colin Nelson</option>
+                  <option class="option" value="Gresham Carr">Gresham Carr</option>
+                  <option class="option" value="Virgil Grant">Virgil Grant</option>
+                  <option class="option" value="Gilbert Hopkins">Gilbert Hopkins</option>
+                  <option class="option" value="Sarah Lamb">Sarah Lamb</option>
+                  <option class="option" value="Dennis Dinwiddie">Dennis Dinwiddie</option>
+                  <option class="option" value="Mia Pope">Mia Pope</option>
+                  <option class="option" value="Jessica Bird">Jessica Bird</option>
+                </select>
+              </div>
+              <div>
+                <p class="ckeckbox-title">Excepteur sint occaecat cupidatat</p>
+                <div>
+                  <label class="checkbox-text box-container" for="first"
+                    >Lorem ipsum dolor sit amet *
+                    <input class="checkbox" type="checkbox" id="first" name="first" />
+                    <span class="checkbox-custom"></span>
+                  </label>
+                </div>
+                <div>
+                  <label class="checkbox-text box-container" for="second"
+                    >Lorem ipsum dolor sit amet *
+                    <input class="checkbox" type="checkbox" id="second" name="second" />
+                    <span class="checkbox-custom"></span>
+                  </label>
+                </div>
+                <div>
+                  <label class="checkbox-text box-container" for="third"
+                    >Lorem ipsum dolor sit amet
+                    <input class="checkbox" type="checkbox" id="third" name="third" />
+                    <span class="checkbox-custom"></span>
+                  </label>
+                </div>
+              </div>
+              <div>
+                <label class="comment-title" for="comment-title">Add Comment</label>
+                <textarea class="textarea" id="comment" name="comment" rows="5" cols="49">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </textarea
+                >
+              </div>
+              <div class="form-btns">
+                <button
+                  type="button"
+                  class="new-btn cancel-btn"
+                  data-bs-dismiss="modal"
+                  data-modal-close
+                  aria-label="Close"
+                >
+                  <span class="cancel">Cancel</span>
+                </button>
+                <button type="submit" class="new-btn post-btn">
+                  <span class="post">Post</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

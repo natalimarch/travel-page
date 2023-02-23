@@ -1,0 +1,79 @@
+@import './common';
+
+.header {
+  width: 256px;
+  height: 100%;
+  padding: 20px 8px;
+  background-color: #1f2937;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: fit-content;
+  margin-bottom: 27px;
+  padding: 0 8px;
+
+  &__icon {
+    width: 99px;
+    height: 24px;
+  }
+}
+
+.list {
+  padding: 4px 0;
+}
+
+.title {
+  padding: 24px 12px 0px 12px;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #6b7280;
+}
+
+.link {
+  width: 240px;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #d1d5db;
+}
+
+.text {
+  margin-left: 12px;
+}
+
+.menu__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.item-footer {
+  margin-top: 186px;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #fff;
+  background: #4b5563;
+  border-radius: 6px;
+}
